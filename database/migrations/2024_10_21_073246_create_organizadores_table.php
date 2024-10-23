@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('organizadores', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre');
+            $table->string('apellido');
+            $table->string('email')->unique();
+            $table->integer('telefono');
             $table->timestamps();
         });
     }
