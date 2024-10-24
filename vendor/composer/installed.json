@@ -1282,77 +1282,6 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
-            "name": "ibex/crud-generator",
-            "version": "v2.1.1",
-            "version_normalized": "2.1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/awais-vteams/laravel-crud-generator.git",
-                "reference": "4a7859532ee89a87d6851df4afdfae39a365512b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/awais-vteams/laravel-crud-generator/zipball/4a7859532ee89a87d6851df4afdfae39a365512b",
-                "reference": "4a7859532ee89a87d6851df4afdfae39a365512b",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^10.30|^11.0",
-                "php": "^8.2"
-            },
-            "time": "2024-06-11T04:27:58+00:00",
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Ibex\\CrudGenerator\\CrudServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Ibex\\CrudGenerator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "M Awais",
-                    "email": "asargodha@gmail.com"
-                }
-            ],
-            "description": "Laravel CRUD Generator",
-            "keywords": [
-                "alpine js",
-                "bootstrap css",
-                "crud",
-                "crud generator",
-                "laravel",
-                "laravel crud generator",
-                "laravel package",
-                "tailwind css"
-            ],
-            "support": {
-                "issues": "https://github.com/awais-vteams/laravel-crud-generator/issues",
-                "source": "https://github.com/awais-vteams/laravel-crud-generator/tree/v2.1.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/awais-vteams",
-                    "type": "github"
-                },
-                {
-                    "url": "https://ko-fi.com/mawais",
-                    "type": "ko_fi"
-                }
-            ],
-            "install-path": "../ibex/crud-generator"
-        },
-        {
             "name": "laravel/framework",
             "version": "v11.29.0",
             "version_normalized": "11.29.0.0",
@@ -1973,72 +1902,6 @@
                 "source": "https://github.com/laravel/tinker/tree/v2.10.0"
             },
             "install-path": "../laravel/tinker"
-        },
-        {
-            "name": "laravel/ui",
-            "version": "v4.5.2",
-            "version_normalized": "4.5.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/ui.git",
-                "reference": "c75396f63268c95b053c8e4814eb70e0875e9628"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/c75396f63268c95b053c8e4814eb70e0875e9628",
-                "reference": "c75396f63268c95b053c8e4814eb70e0875e9628",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^9.21|^10.0|^11.0",
-                "illuminate/filesystem": "^9.21|^10.0|^11.0",
-                "illuminate/support": "^9.21|^10.0|^11.0",
-                "illuminate/validation": "^9.21|^10.0|^11.0",
-                "php": "^8.0",
-                "symfony/console": "^6.0|^7.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^7.35|^8.15|^9.0",
-                "phpunit/phpunit": "^9.3|^10.4|^11.0"
-            },
-            "time": "2024-05-08T18:07:10+00:00",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Ui\\UiServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Ui\\": "src/",
-                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel UI utilities and presets.",
-            "keywords": [
-                "laravel",
-                "ui"
-            ],
-            "support": {
-                "source": "https://github.com/laravel/ui/tree/v4.5.2"
-            },
-            "install-path": "../laravel/ui"
         },
         {
             "name": "league/commonmark",
@@ -8285,11 +8148,9 @@
         "fakerphp/faker",
         "filp/whoops",
         "hamcrest/hamcrest-php",
-        "ibex/crud-generator",
         "laravel/pail",
         "laravel/pint",
         "laravel/sail",
-        "laravel/ui",
         "mockery/mockery",
         "myclabs/deep-copy",
         "nunomaduro/collision",
