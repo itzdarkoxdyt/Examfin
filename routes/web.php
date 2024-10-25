@@ -12,4 +12,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::resource('eventos',App\Http\Controllers\EventoController::class);
 Route::resource('organizadores',App\Http\Controllers\OrganizadoreController::class);
-Route::resource('participaciones',App\Http\Controllers\AParticipacioneController::class);
+Route::resource('participaciones',App\Http\Controllers\ParticipacioneController::class);
